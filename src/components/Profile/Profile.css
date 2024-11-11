@@ -1,0 +1,75 @@
+.profile-modal {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 2rem;
+    font-style: bold;
+    cursor: pointer;
+}
+
+.modal-close:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.modal-close h1 {
+    margin: 0;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 13px;
+    transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+    background-color: #e0e0e0;
+}
+
+.image-upload-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start;
+}
+
+.loader-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.loader {
+    width: 50px; /* Size of the loader */
+    height: 10px; /* Height for a stationary effect */
+    background-color: #3498db; /* Loader color */
+    animation: flash 1s infinite; /* Flashing effect */
+}
+
+.loading-text {
+    font-size: 16px; /* Adjust font size */
+    color: #333; /* Text color */
+    margin-left: 10px; /* Space between loader and text */
+}
+
+@keyframes flash {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5; /* Change opacity to create a flashing effect */
+    }
+}
