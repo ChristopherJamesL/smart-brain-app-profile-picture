@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smart-brain-app-profile-picture/static/css/main.70aa670c.css",
+    "main.js": "/smart-brain-app-profile-picture/static/js/main.0a94ef3f.js",
+    "index.html": "/smart-brain-app-profile-picture/index.html",
+    "main.70aa670c.css.map": "/smart-brain-app-profile-picture/static/css/main.70aa670c.css.map",
+    "main.0a94ef3f.js.map": "/smart-brain-app-profile-picture/static/js/main.0a94ef3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70aa670c.css",
+    "static/js/main.0a94ef3f.js"
+  ]
+}
