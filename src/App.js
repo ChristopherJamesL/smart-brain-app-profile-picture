@@ -29,7 +29,7 @@ const initialState = {
     age: '',
     uploadedImageUrl: ''
   }
-}
+}   
 
 
 class App extends Component {
